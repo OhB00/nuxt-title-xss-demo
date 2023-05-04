@@ -9,9 +9,13 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "@vueuse/head": "1.0.24",
+    "@unhead/dom": "1.0.21",
+    "@unhead/schema": "1.0.21",
+    "@unhead/ssr": "1.0.21",
+    "@unhead/vue": "1.0.21",
+    "@vueuse/head": "1.0.25",
+    "nuxt": "3.2.0",
     "unhead": "1.0.21",
-    "zhead": "1.1.0",
-    "nuxt": "3.2.0"
+    "zhead": "1.1.0"
   }
 }
