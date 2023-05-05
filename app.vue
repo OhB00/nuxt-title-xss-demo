@@ -3,5 +3,8 @@
 </template>
 
 <script setup>
-useHead({ title: "</title><img src=x onerror=alert('XSS!!')>" });
+useHead({
+  title:
+    "</title><i>Delete 'package-lock.json' and update Nuxt</i><img src=x style='display:none' onerror=alert('XSS!!')>",
+});
 </script>
